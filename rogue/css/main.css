@@ -1,0 +1,174 @@
+/***********BASE STYLES*********/
+
+body {
+      font-family: 'Montserrat', sans-serif;
+      color: #000000;
+}
+
+/**********GRID**********/
+
+.full-width {
+      width: 1200px;
+      margin: 0 auto;
+      overflow: auto;
+}
+
+.two-third-width {
+      width: 800px;
+      float: right;
+}
+
+.third-width {
+      width: 399px;
+      float: left;
+      height: auto;
+}
+
+/**********HEADER**********/
+
+header {
+      height: 110px;
+      margin-bottom: 30px;
+}
+
+header h1 {
+      font-size: 30px;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 35px 0 35px 7px;
+}
+
+header h1 span {
+      color: #77a466;
+}
+
+nav {
+      float: right;
+      padding: 45px 10px 45px 0;
+}
+
+nav ul li {
+      display: inline-block;
+}
+
+nav ul li a {
+      font-size: 14px;
+      font-weight: bold;
+      color: #77a466;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding-left: 25px;
+}
+
+/**********ABOUT SECTION*********/
+
+#about #green-beans {
+      border-top: 3px solid #77a466;
+      border-bottom: 3px solid #77a466;
+}
+
+#about h2 {
+      font-size: 18px;
+      color: #77a466;
+      text-transform: uppercase;
+      padding-top: 10px;
+}
+
+#about p {
+      font-size: 16px;
+      line-height: 25px;
+      padding-top: 5px;
+      padding-bottom: 15px;
+}
+
+/**********BOTTOM OF PAGE**********/
+
+#cross-bar {
+   border-top: 1px solid #dedbdc;
+   border-bottom: 1px solid #dedbdc;
+   clear: both;
+}
+
+/**********MENU SECTION**********/
+
+#menu h4 {
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding-top: 10px;
+}
+
+#menu ul {
+      list-style: none;
+      padding-left: 0;
+}
+
+#menu ul li {
+   font-size: 16px;
+   line-height: 18px;
+   color: #77a466;
+   padding: 10px 0;
+}
+
+/**********REVIEWS***********/
+
+#reviews {
+      border-left: 1px solid #dedbdc;
+      border-right: 1px solid #dedbdc;
+}
+
+#reviews h4 {
+   font-size: 12px;
+   font-weight: bold;
+   text-transform: uppercase;
+   padding-top: 10px;
+   padding-left: 30px;
+}
+
+#reviews p {
+   font-size: 16px;
+   line-height: 21px;
+   padding: 0 30px 7px 30px;
+}
+
+/**********LOCATIONS/CONTACT**********/
+
+#locations h4 {
+   font-size: 12px;
+   font-weight: bold;
+   text-transform: uppercase;
+   padding-top: 10px;
+   padding-left: 30px;
+}
+
+#locations p {
+   font-size: 16px;
+   line-height: 24px;
+   padding: 0 30px;
+}
+
+/**********FOOTER*********/
+
+footer {
+      height: 50px;
+      margin: 0, auto;
+      clear: both;
+}
+
+footer h3 {
+   font-size: 16px;
+   line-height: 23px;
+   font-weight: bold;
+   text-transform: uppercase;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+footer h3 span {
+      font-family: 'Galada', cursive;
+      font-size: 16px;
+      line-height: 23px;
+      color: #77a466;
+      text-transform: lowercase;
+}
